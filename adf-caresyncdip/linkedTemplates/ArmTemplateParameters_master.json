@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-caresyncdip"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "dipali.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-database"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqlserver"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://caresync-keyvaultdip.vault.azure.net/"
+		},
+		"LS_PostgreSql1_properties_typeProperties_server": {
+			"value": "ep-orange-sound-b3px620t-pooler.c-4.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_PostgreSql1_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql1_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"LS_adlsgen2_properties_typeProperties_url": {
+			"value": "https://caresyncprojectdip.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
